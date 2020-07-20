@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+  
+  <script src="javascript/jquery-3.3.1.min.js"></script>
+
+  <script src="javascript/textbox.js"></script>
+
+  <script src="javascript/clipboard.js"></script>
+
+  <script src="javascript/clipboard.min.js"></script>
+
+</head>
+
+<body>
+
+  <script src='//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  
+  <script type="text/javascript" src="jquery.ripples-min.js"></script>
+  
+  <script src="javascript/jquery.ripples-min.js"></script>
+
+  <script src="javascript/jquery.ripples.js"></script>
+
+  <script src="javascript/hoge.js"></script>
+
+  <script src="javascript/ripples.js"></script>
+
+  <div class="ripples">
+   <script>
+    $(".ripples").ripples(
+      {
+	  dropRadius: 20,
+	  perturbance: 0.05,
+	  resolution: 256,
+	  interactive: true,
+	  crossOrigin: ""
+    }
+    );
+  </script>
+  </div>
+
+  <div class="ripples2">
+    <script>
+     $(".ripples").ripples(
+       {
+     dropRadius: 30,
+     perturbance: 0.1,
+     resolution: 256,
+     interactive: true,
+     crossOrigin: ""
+     }
+     );
+   </script>
+   </div>
+
+ 
+  <div class=tbox>
+    <p>水上課題</p>
+    <textarea cols="70" rows="30" onkeyup="ShowLength(value);" style="background-color:rgba(170, 211, 238, 0.6); color: rgb(0, 0, 0);"></textarea> 
+    <p id="inputlength">0文字</p>
+    <h3 class="copy-value" data-clipboard-text=value ></h3>
+  </div>
+    
+ 
+
+  <div class =f>
+      <small>© 2020 if</small>
+  </div>
+
+</body>
+</html>

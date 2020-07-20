@@ -1,0 +1,52 @@
+/* *{
+  margin:0;
+  padding:0;
+}*/
+
+.header{
+  
+  background-color: #000;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+} 
+
+.tbox{
+  display:inline-block;
+  position:fixed;
+  text-align: center;
+  left: 30%;
+  top:20%;
+}
+p{
+  color: rgb(193, 220, 243);
+  left: 50%
+}
+
+.ripples {
+  background:url("blue3.jpg") center no-repeat;
+  background-size:cover;
+  
+	display:block;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+
+
+.f{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  font-size: 15px;
+  color: #fff;
+} 
