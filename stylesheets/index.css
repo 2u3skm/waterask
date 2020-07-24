@@ -1,7 +1,7 @@
-/* *{
+*{
   margin:0;
   padding:0;
-}*/
+}
 
 .header{
   
@@ -21,16 +21,31 @@
   position:fixed;
   text-align: center;
   left: 30%;
-  top:20%;
+  top:15%;
+}
+h1{
+  margin-bottom: 7%;
+  color: #fff;
 }
 p{
   color: rgb(193, 220, 243);
-  left: 50%
+  left: 50%;
+  font-size: 20px;
+}
+
+a{
+  display: inline-block;
+}
+
+.title{
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .ripples {
   background:url("blue3.jpg") center no-repeat;
-  background-size:cover;
+  background-size: cover;
   
 	display:block;
 	position:fixed;
@@ -41,12 +56,11 @@ p{
 }
 
 
-.f{
-  height: 100px;
+/* .footer{
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #000;
   font-size: 15px;
   color: #fff;
-} 
+}   */
