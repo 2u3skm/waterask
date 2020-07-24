@@ -20,8 +20,8 @@
   display:inline-block;
   position:fixed;
   text-align: center;
-  left: 30%;
-  top:15%;
+  left: 32%;
+  top:20%;
 }
 h1{
   margin-bottom: 7%;
@@ -44,7 +44,7 @@ a{
 }
 
 .ripples {
-  background:url("blue3.jpg") center no-repeat;
+  background:url("blueee.jpg") center no-repeat;
   background-size: cover;
   
 	display:block;
