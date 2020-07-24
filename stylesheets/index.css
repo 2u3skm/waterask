@@ -17,11 +17,13 @@
 } 
 
 .tbox{
-  display:inline-block;
-  position:fixed;
   text-align: center;
-  left: 32%;
+  display:block;
+  position:fixed;
+  right:0;
+  bottom:0;
   top:20%;
+  left: 0;
 }
 h1{
   margin-bottom: 7%;
