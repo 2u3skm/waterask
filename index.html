@@ -9,9 +9,6 @@
   <script src="javascript/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="jquery.ripples-min.js"></script>
   <script src="javascript/jquery.ripples-min.js"></script>
-
-  <script src="javascript/textbox.js"></script>
-
   <script src="javascript/clipboard.js"></script>
   <script src="javascript/clipboard.min.js"></script>
 </head>
@@ -33,20 +30,19 @@
   </script>
   </div>
 
-
-  <div class=tbox>
-    <textarea cols="58" rows="25" onkeyup="ShowLength(value);" style="background-color:rgba(170, 211, 238, 0.6); color: rgb(0, 0, 0);"></textarea> 
+ <div class=tbox>
+    <textarea id="form2" cols="58" rows="25" onkeyup="ShowLength(value);" style="background-color:rgba(170, 211, 238, 0.6); color: rgb(0, 0, 0);"></textarea> 
     <p id="inputlength">0文字</p>
     <p>
       <button class="btn" onclick = "copy()">
-        copy
+        コピー
+      </button>
+
+      <button class="btn" onclick = "clearTextarea()">
+        クリア
       </button>
     </p>
   </div>
-
-  <!-- <div class=footer>
-      <small>© 2020 if</small>
-  </div> -->
 
 </body>
 </html>
