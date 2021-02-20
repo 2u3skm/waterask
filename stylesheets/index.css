@@ -56,6 +56,13 @@ a{
 	bottom:0;
 }
 
+.btn{
+  height: 30px;
+  width: 50px;
+  background: #fff;
+  outline: none;
+}
+
 /* .footer{
   display: flex;
   justify-content: center;
