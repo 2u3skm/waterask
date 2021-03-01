@@ -45,15 +45,11 @@ a{
   margin: 0 auto;
 }
 
-.ripples {
-  background:url("blue5.jpg");
+body{
+  background-image:url("blue5.jpg");
   background-size: cover;
-	display:block;
-	position:fixed;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .btn{
@@ -63,11 +59,77 @@ a{
   outline: none;
 }
 
-/* .footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #000;
-  font-size: 15px;
-  color: #fff;
-}   */
+.kingyo1{
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
+
+.kingyo11{
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  transform:rotate(180deg);  
+}
+
+.kingyo2{
+  position: absolute;
+  top: 60%;
+  right: 15%;
+}
+.kingyo22{
+  position: absolute;
+  top: 42%;
+  left: 14%;
+  transform:rotate(240deg);  
+}
+
+.kingyo3{
+  position: absolute;
+  top: 18%;
+  right: 24%;
+}
+.kingyo33{
+  position: absolute;
+  top: 48%;
+  right: 6%;
+  transform:rotate(160deg);  
+}
+.kingyo32{
+  position: absolute;
+  top: 68%;
+  left: 4%;
+  transform:rotate(100deg);  
+}
+
+.kingyo4{
+  position: absolute;
+  top: 38%;
+  left: 16%;
+}
+
+.kingyo5{
+  position: absolute;
+  top: 38%;
+  right: 16%;
+  transform:rotate(-80deg);  
+}
+
+.kingyo6{
+  position: absolute;
+  top: 88%;
+  left: 30%;
+}
+
+.kingyo62{
+  position: absolute;
+  top: 88%;
+  right: 20%;
+  transform:rotate(-80deg);  
+}
+.kingyo63{
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  transform:rotate(100deg);  
+}
