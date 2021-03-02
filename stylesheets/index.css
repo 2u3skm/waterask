@@ -44,15 +44,9 @@ a{
   text-align: center;
   margin: 0 auto;
 }
-
-body{
-  background-image:url("blue5.jpg");
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-}
-
-.ripples{
+.ripples {
+	background:url("blue5.png") center no-repeat;
+	background-size:cover;
 	display:block;
 	position:fixed;
 	top:0;
